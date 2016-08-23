@@ -15,7 +15,7 @@ To simplify the annotation process and give the charateristic changing depth of 
 
 Each of the cells should be annotated for dominant Benthic Composition, Field of View and Relief.
 
-![alt text](tm.png "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
+![alt text](https://cloud.githubusercontent.com/assets/14978794/17895290/3628ea54-697f-11e6-80c0-3633435d75f9.PNG "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
 
 
 [https://cloud.githubusercontent.com/assets/14978794/17895290/3628ea54-697f-11e6-80c0-3633435d75f9.PNG]
