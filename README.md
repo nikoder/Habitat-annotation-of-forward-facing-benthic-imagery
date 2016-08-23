@@ -27,11 +27,20 @@ To the BROAD class we have added additional levels of "Open Water", to calculate
 
 The FieldOfView class allows the qualification of the image quality within each cell and the "Limited" class is used where benthos or substrate obscurs the cell within ~1m of the camera (typically the length of the diode arm of stereo-video systems)
 
-The Relief class uses a 0-5 quatification of releif
+The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes and "Unknown" level to account for cells with limited visibility.
 
 <HR>
 </HR>
 
+Recommended applications:
+
+For a very rapid assement of Benthic Composition, Field of View and Relief we reccomend only using the:
+BROAD/FieldOfView/Relief classes
+An experienced analyst would be able to annotate this schema to over 200 images a day
+
+For a more detailed assement of Benthic Composition (where coral bleaching or macrcoalga compostion was of interest), Field of View and Relief we reccomend using all the classes:
+BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes
+An experienced analyst would be able to annotate this schema to over 120 images a day
 
 <HR>
 </HR>
