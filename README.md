@@ -6,7 +6,14 @@ We have developed an simple approach to characterise the composition and complex
 This annotation schema is described and included in a published paper<sup>3</sup>, please cite if you use it.
 However, please refer to this GitHub repository for uptodate versions of the annotation schema.
 
-Parts of this annotation scheme have also bee trailed in two further published papers so far<sup>4,5</sup>.
+Parts of this annotation scheme have also been trailed in two further published papers so far<sup>4,5</sup>.
+
+<HR>
+</HR>
+
+![alt text](HabitatAnnotation/tm.png "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
+
+
 
 
 Bibliography
