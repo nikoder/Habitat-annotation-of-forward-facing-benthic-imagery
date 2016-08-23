@@ -11,7 +11,7 @@ Parts of this annotation scheme have also been trailed in two further published 
 <HR>
 </HR>
 
-![alt text](HabitatAnnotation/tm.png "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
+![alt text](tm.png "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
 
 
 
