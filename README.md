@@ -11,11 +11,17 @@ Parts of this annotation scheme have also been trailed in two further published 
 <HR>
 </HR>
 
+To simplify the annotation process and give the charateristic changing depth of field of view of horizontaly facing imagery we have gridded the images in 5 x 4 cells.
+
+Each of the cells should be annotated for dominant Benthic Composition, Field of View and Relief.
+
 ![alt text](tm.png "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
 
+<HR>
+</HR>
 
-
-
+<HR>
+</HR>
 Bibliography
 
 1. Hill, N., Althaus, F., Rees, T., et al., 2014. CATAMI Classification Scheme for Scoring Marine Biota and Substrata in Underwater Imagery Version 1.4: December 2014
