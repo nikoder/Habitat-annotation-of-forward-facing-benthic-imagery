@@ -23,6 +23,11 @@ Each of the cells should be annotated for dominant Benthic Composition, Field of
 Tht annotation schema is made up of nested Benthic Composition classes taken direclty from the CATAMI schema and a Field of View and Relief class that are useful for characterising horizonatlly facing imagery.
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief
 
+To the BROAD class we have added additional levels of "Open Water", to calculate the % of benthos within each image, and "Unknown", to account for the frequent issues of limited visibility typical for forward facing imagery.
+
+The FieldOfView class allows the qualification of the image quality within each cell and the "Limited" class is used where benthos or substrate obscurs the cell within ~1m of the camera (typically the length of the diode arm of stereo-video systems)
+
+The Relief class uses a 0-5 quatification of releif
 
 <HR>
 </HR>
