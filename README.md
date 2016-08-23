@@ -17,9 +17,6 @@ Each of the cells should be annotated for dominant Benthic Composition, Field of
 
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/17895290/3628ea54-697f-11e6-80c0-3633435d75f9.PNG "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
 
-
-[https://cloud.githubusercontent.com/assets/14978794/17895290/3628ea54-697f-11e6-80c0-3633435d75f9.PNG]
-
 <HR>
 </HR>
 
@@ -62,4 +59,4 @@ Bibliography
 
 4. Collins, Danielle, Tim J. Langlois, Todd Bond, Thomas H. Holmes, Euan S. Harvey, Rebecca Fisher Dianne L. McLean. In press. “A novel stereo-video method to investigate fish-habitat relationships.” Methods in Ecology and Evolution.
 
-5. Katherine Bennett, Timothy Langlois , George Shedrawi , Shaun Wilson, Dianne McLean. In press. “Can Diver Operated Stereo-Video Surveys for Fish Be Used to Collect Meaningful Data on Benthic Coral Reef Communities?” Limnology and Oceanography, Methods / ASLO.
+5. Katherine Bennett, Tim Langlois , George Shedrawi , Shaun Wilson, Dianne McLean. In press. “Can Diver Operated Stereo-Video Surveys for Fish Be Used to Collect Meaningful Data on Benthic Coral Reef Communities?” Limnology and Oceanography, Methods / ASLO.
