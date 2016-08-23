@@ -20,6 +20,14 @@ Each of the cells should be annotated for dominant Benthic Composition, Field of
 <HR>
 </HR>
 
+Tht annotation schema is made up of nested Benthic Composition classes taken direclty from the CATAMI schema and a Field of View and Relief class that are useful for characterising horizonatlly facing imagery.
+BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief
+
+
+<HR>
+</HR>
+
+
 <HR>
 </HR>
 Bibliography
