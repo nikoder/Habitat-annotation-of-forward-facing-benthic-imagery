@@ -1,19 +1,22 @@
 # HabitatAnnotation
-Habitat annotation of horizontally facing benthic imagery from baited and unbaited remote stereo-video deployments and diver swum stereo-video transects.
+Habitat annotation of horizontally facing benthic imagery from baited and unbaited remote stereo-video deployments and diver swum stereo-video transects. With an applied example using the TransectMeasure software from www.seagis.com.au
+
+<HR>
+</HR>
 
 We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (CATAMI classification scheme<sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. The annotation approach is rapid and produces % composition and mean and standard deviation estimates of complexity which enable flexible modeling of habitat occurrence and habitat-fish relationships.
 
 This annotation schema is described and included in a published paper<sup>3</sup>, please cite if you use it.
 However, please refer to this GitHub repository for uptodate versions of the annotation schema.
 
-Parts of this annotation scheme have also been trailed in two further published papers so far<sup>4,5</sup>.
+Parts of this annotation scheme have also been trailed in two further published papers<sup>4,5</sup>.
 
 <HR>
 </HR>
 
-To simplify the annotation process and still represent multiple scales of habitat from the charateristic changing depth of field of view of horizontaly facing imagery, we have gridded the images in 5 x 4 cells. #####  This sentence is cluncky and not sure how to inprove anymore  #####
+To simplify the annotation process and still represent multiple scales of habitat in horizontaly facing imagery, we have gridded the images in 5 x 4 cells.
 
-Each of the cells should be annotated for dominant Benthic Composition, Field of View and Relief.
+Protocol: each of the cells is annotated for dominant Benthic Composition, Field of View and Relief.
 
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/17895290/3628ea54-697f-11e6-80c0-3633435d75f9.PNG "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
 
