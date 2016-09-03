@@ -4,9 +4,9 @@ Habitat annotation of horizontally facing benthic imagery from baited and unbait
 <HR>
 </HR>
 
-We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (CATAMI classification scheme<sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. 
+We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (<a>href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/CATAMI-visual-guide-latest.pdf">CATAMI classification scheme</a><sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. 
 
-<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/CATAMI-visual-guide-latest.pdf">CATAMI classification scheme</a>
+
 
 The annotation approach is rapid and produces % composition and mean and standard deviation estimates of complexity which enable flexible modeling of habitat occurrence and habitat-fish relationships.
 
@@ -56,7 +56,8 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 <HR>
 </HR>
 
-The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the configuration text file for uploading the schema to TransectMeasure is provided in this repository.
+The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a>href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/Transect%20Measure%20Habitat%20Codes_160705.txt">configuration text file</a> for uploading the schema to TransectMeasure is provided in this repository.
+
 
 <HR>
 </HR>
