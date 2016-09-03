@@ -6,10 +6,10 @@ Habitat annotation of horizontally facing benthic imagery from baited and unbait
 
 <b>Table of contents</b>
 
-*[Introduction](#introduction)
-*[Method](#method)
-*[Recommended approaches](#recommended-approaches)
-*[TransectMeasure example](#transectmeasure-example)
+[Introduction](#introduction)
+[Method](#method)
+[Recommended approaches](#recommended-approaches)
+[TransectMeasure example](#transectmeasure-example)
 
 
 #<a name="introduction"></a>Introduction
