@@ -5,12 +5,13 @@ Habitat annotation of horizontally facing benthic imagery from baited and unbait
 </HR>
 
 <b>Table of contents</b>
-*[Introduction](#introduction)
-<b>Method</b>
-<b>Recommended approaches</b>
-<b>TransectMeasure example</b>
 
-<b>Introduction</b>
+*[Introduction](#introduction)
+*[Method](#method)
+*[Recommended approaches](#recommended-approaches)
+*[TransectMeasure example](#transectmeasure-example)
+
+
 #<a name="introduction"></a>Introduction
 
 We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/CATAMI-visual-guide-latest.pdf">CATAMI classification scheme</a><sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. 
@@ -34,7 +35,7 @@ Protocol: each of the cells is annotated for dominant Benthic Composition, Field
 <HR>
 </HR>
 
-<b>Method</b>
+#<a name="method"></a>Method
 
 The annotation schema is made up of nested Benthic Composition classes taken from the CATAMI schema and a Field of View and Relief class that are useful for characterising horizonatlly facing imagery.
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief
@@ -50,7 +51,7 @@ The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes an
 <HR>
 </HR>
 
-<b>Recommended approaches</b>
+#<a name="recommended-approaches"></a>Recommended approaches
 
 <b>Standard (rapid) assessment</b> of Benthic Composition, Field of View and Relief we recommend using ONLY the:
 BROAD/FieldOfView/Relief classes. 
@@ -65,7 +66,7 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 <HR>
 </HR>
 
-<b>TransectMeasure example</b>
+#<a name="transectmeasure-example"></a>TransectMeasure example
 
 The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/Transect%20Measure%20Habitat%20Codes_160705.txt">configuration text file</a> for uploading the schema to TransectMeasure is provided in this repository.
 
