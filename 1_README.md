@@ -39,12 +39,12 @@ The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes an
 
 Recommended applications:
 
-For a very rapid assement of Benthic Composition, Field of View and Relief we recommend only using the:
-BROAD/FieldOfView/Relief classes
+<b>Standard (rapid) assessment</b> of Benthic Composition, Field of View and Relief we recommend using ONLY the:
+BROAD/FieldOfView/Relief classes. 
 An experienced analyst would be able to annotate this schema to over 200 images a day.
 
-For a more detailed assessment of Benthic Composition (where coral bleaching or macroalgae compostion was of interest), Field of View and Relief we recommend using all the classes:
-BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes
+<b>Detailed assessment</b> of Benthic Composition (where coral bleaching or macroalgae compostion was of interest), Field of View and Relief we recommend using all the classes in the schema:
+BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes. 
 An experienced analyst would be able to annotate this schema to over 120 images a day.
 
 <HR>
