@@ -1,4 +1,4 @@
-QUICK GUIDE: GRID METHOD FOR HABITAT CLASSIFICATION USING TRANSECTMEASURE
+QUICK GUIDE: Standard Operating Procedure for Habitat Annotation using TransectMeasure
 
 Loading all images and setting the attribute file
 
