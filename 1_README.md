@@ -42,7 +42,7 @@ Recommended applications:
 <b>Standard (rapid) assessment</b> of Benthic Composition, Field of View and Relief we recommend using ONLY the:
 BROAD/FieldOfView/Relief classes. 
 An experienced analyst would be able to annotate this schema to over 200 images a day.
-
+OR
 <b>Detailed assessment</b> of Benthic Composition (where coral bleaching or macroalgae compostion was of interest), Field of View and Relief we recommend using all the classes in the schema:
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes. 
 An experienced analyst would be able to annotate this schema to over 120 images a day.
