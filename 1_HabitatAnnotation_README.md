@@ -4,9 +4,16 @@ Habitat annotation of horizontally facing benthic imagery from baited and unbait
 <HR>
 </HR>
 
+<b>Table of contents</b>
+*[Introduction](#introduction)
+<b>Method</b>
+<b>Recommended approaches</b>
+<b>TransectMeasure example</b>
+
+<b>Introduction</b>
+#<a name="introduction"></a>Introduction
+
 We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/CATAMI-visual-guide-latest.pdf">CATAMI classification scheme</a><sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. 
-
-
 
 The annotation approach is rapid and produces % composition and mean and standard deviation estimates of complexity which enable flexible modeling of habitat occurrence and habitat-fish relationships.
 
@@ -27,6 +34,8 @@ Protocol: each of the cells is annotated for dominant Benthic Composition, Field
 <HR>
 </HR>
 
+<b>Method</b>
+
 The annotation schema is made up of nested Benthic Composition classes taken from the CATAMI schema and a Field of View and Relief class that are useful for characterising horizonatlly facing imagery.
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief
 
@@ -41,7 +50,7 @@ The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes an
 <HR>
 </HR>
 
-Recommended applications:
+<b>Recommended approaches</b>
 
 <b>Standard (rapid) assessment</b> of Benthic Composition, Field of View and Relief we recommend using ONLY the:
 BROAD/FieldOfView/Relief classes. 
@@ -56,12 +65,16 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 <HR>
 </HR>
 
+<b>TransectMeasure example</b>
+
 The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/Transect%20Measure%20Habitat%20Codes_160705.txt">configuration text file</a> for uploading the schema to TransectMeasure is provided in this repository.
 
+We also provide a <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/2_Standard%20Operating%20Procedure_TransectMeasure.md">TransectMeasure Standard Operating Procedure</a>. 
 
 <HR>
 </HR>
-Bibliography
+
+<b>Bibliography</b>
 
 1. Hill, N., Althaus, F., Rees, T., et al., 2014. CATAMI Classification Scheme for Scoring Marine Biota and Substrata in Underwater Imagery Version 1.4: December 2014
 <br></br>
