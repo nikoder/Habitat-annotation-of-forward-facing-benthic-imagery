@@ -6,11 +6,11 @@ Habitat annotation of horizontally facing benthic imagery from baited and unbait
 
 <b>Table of contents</b>
 
-[Introduction](#introduction)
-[Method](#method)
-[Recommended approaches](#recommended-approaches)
-[TransectMeasure example](#transectmeasure-example)
-
+[Introduction](#introduction)<br></br>
+[Method](#method)<br></br>
+[Recommended approaches](#recommended-approaches)<br></br>
+[TransectMeasure example](#transectmeasure-example)<br></br>
+[Bibliography](#bibliography)
 
 #<a name="introduction"></a>Introduction
 
@@ -75,7 +75,7 @@ We also provide a <a href="https://github.com/TimLanglois/HabitatAnnotation/blob
 <HR>
 </HR>
 
-<b>Bibliography</b>
+#<a name="bibliography"></a>Bibliography
 
 1. Hill, N., Althaus, F., Rees, T., et al., 2014. CATAMI Classification Scheme for Scoring Marine Biota and Substrata in Underwater Imagery Version 1.4: December 2014
 <br></br>
