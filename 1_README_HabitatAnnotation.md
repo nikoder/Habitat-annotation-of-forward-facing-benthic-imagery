@@ -49,9 +49,13 @@ To the BROAD class, we have added additional levels of "Open Water", to calculat
 The FieldOfView class allows the qualification of the image quality within each cell and the "Limited" level is used where benthos or substrate obscurs the cell within ~1m of the camera (typically the length of the diode arm of baited stereo-video systems)
 
 Definition of FoV options:
+
 <b>Facing Down:</b> No open water visible.
+
 <b>Facing Up:</b> No substrate visible.
+
 <b>Limited:</b> BRUV visibly landed on its side or the FoV is obstructed by benthos or substrate within 1m of camera (length of diode arm).
+
 <b>Open:</b> BRUV landed upright and level on the substrate and there is an adequate amount of habitat available for classification.
 
 
@@ -60,12 +64,19 @@ The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes an
 <i>When the “BROAD” is “Open Water”, “Relief” should be classified as “Unknown”.</i>
 
 “Relief” type is representative of complexity or the height and angle of substrate. Distinct categories have been adapted from Wilson et al. (2006):
+
 <b>0.</b>	Flat substrate, sandy, rubble with few features. ~0 substrate slope.
+
 <b>1.</b>	Some relief features amongst mostly flat substrate/sand/rubble. <45 degree substrate slope.
+
 <b>2.</b>	Mostly relief features amongst some flat substrate or rubble. ~45 substrate slope.
+
 <b>3.</b>	Good relief structure with some overhangs. >45 substrate slope.
+
 <b>4.</b>	High structural complexity, fissures and caves. Vertical wall. ~90 substrate slope.
+
 <b>5.</b>	Exceptional structural complexity, numerous large holes and caves. Vertical wall. ~90 substrate slope.
+
 
 <HR>
 </HR>
