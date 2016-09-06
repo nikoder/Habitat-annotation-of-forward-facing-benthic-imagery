@@ -15,9 +15,13 @@
 #<a name="transectmeasure"></a>Load images and attribute file
 
 1)	Open the program “TransectMeasure” and you will be welcomed with a blank screen. 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273095/354953a4-746e-11e6-995d-1561c5411a44.jpg "TransectMeasure")
 
-2)	To start an analysis for a new set of images: “Measurement”  “New measurement file” OR select “Read from file ...” if you are working from a previously saved TMObs (see ‘Saving and exporting from TransectMeasure’ further down). 
+2)	To start an analysis for a new set of images: “Measurement” > “New measurement file” <b>OR</b> select “Read from file ...” if you are working from a previously saved TMObs* (see ‘Saving and exporting from TransectMeasure’ further down). 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273107/433d9010-746e-11e6-80be-63de6a1c3f29.JPG "New Measurement file")
 
+
+*TMObs, TransectMeasure Observation file
 
 
 3)	Locate the folder where your pictures have been stored: “Picture”  “Set picture directory ...”
