@@ -6,8 +6,8 @@
 <b>Table of contents</b>
 
 [Load images and attribute file](#transectmeasure)<br></br>
-[Method](#method)<br></br>
-[Recommended approaches](#recommended-approaches)<br></br>
+[Setting and overlaying the grid](#method)<br></br>
+[Classifying the habitat in an image](#classifying)<br></br>
 [TransectMeasure example](#transectmeasure-example)<br></br>
 [Bibliography](#bibliography)
 
@@ -15,31 +15,46 @@
 #<a name="transectmeasure"></a>Load images and attribute file
 
 1)	Open the program “TransectMeasure” and you will be welcomed with a blank screen. 
+
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/18273095/354953a4-746e-11e6-995d-1561c5411a44.jpg "TransectMeasure")
 
-2)	To start an analysis for a new set of images: “Measurement” > “New measurement file” <b>OR</b> select “Read from file ...” if you are working from a previously saved TMObs* (see ‘Saving and exporting from TransectMeasure’ further down). 
-![alt text](https://cloud.githubusercontent.com/assets/14978794/18273107/433d9010-746e-11e6-80be-63de6a1c3f29.JPG "New Measurement file")
 
+2)	To start an analysis for a new set of images: “Measurement” > “New measurement file” <b>OR</b> select “Read from file ...” if you are working from a previously saved TMObs* (see ‘Saving and exporting from TransectMeasure’ further down). 
+
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273107/433d9010-746e-11e6-80be-63de6a1c3f29.JPG "New Measurement file")
 
 *TMObs, TransectMeasure Observation file
 
 
-3)	Locate the folder where your pictures have been stored: “Picture”  “Set picture directory ...”
+3)	Locate the folder where your pictures have been stored: “Picture” > “Set picture directory ...”
 
-4)	Load the first image to be analysed: “Picture”  “Load picture ...” (see above). 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273145/7a51fdca-746e-11e6-8dc1-4acd8acfbf8f.JPG "Set picture directory")
+
+
+4)	Load the first image to be analysed: “Picture” > “Load picture ...” (see above). 
 -	Remember habitat images should be retaken (if possible) when the image is out of focus, blurry or when there is poor visibility.
+
+
 5)	To load the attribute file containing all of the CATAMI habitat classification codes: “Measurements”  “Load attribute file ...”  Select the appropriate text file you will use when classifying. This is necessary for populating the drop down tabs when classifying your image. 
 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273154/8d3c72b2-746e-11e6-9b84-cac36a2f786d.JPG "Load attribute file")
 
 
-Setting and overlaying the grid
 
-1)	To set up the grid: “Measurements”  “Dot configuration ...”  Set accordingly - Gridded dots, Dots across images = 5, Dots down image = 4 and check the “Overlay rectangles” box. This will allow you to classify the habitat in a 4 x 5 grid (or 20 ‘rectangles’) on each image. You should only need to do this the first time you use the program on your computer. 
+#<a name="method"></a>Setting and overlaying the grid
+
+1)	To set up the grid: “Measurements” > “Dot configuration ...” > Set accordingly - Gridded dots, Dots across images = 5, Dots down image = 4 and check the “Overlay rectangles” box. This will allow you to classify the habitat in a 4 x 5 grid (or 20 ‘rectangles’) on each image. You should only need to do this the first time you use the program on your computer. 
+
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273163/9b55b35e-746e-11e6-8eee-810ccc36150c.JPG "Set up the grid")
+
 
 2)	To overlay the grid: Right click on image and select “Overlay dots”. The name of the image will then appear in the table to the left of the image. 
 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273168/a5054a04-746e-11e6-8a1b-e80888eab9f4.JPG "Overlay grid")
 
-Classifying the habitat in an image
+
+#<a name="classifying"></a>Classifying the habitat in an image
+
 
 1)	To classify each ‘rectangle’ in the grid: 
 i.	Left click on a point in the middle of a ‘rectangle’ to display the “Attribute editor”.  
