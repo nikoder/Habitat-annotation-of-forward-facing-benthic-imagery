@@ -42,11 +42,29 @@ BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief
 
 For detailed information on the particular taxanomic levels within the BROAD>MORPHOLOGY>TYPE classifications provided in this annotation schema, please consult the CATAMI visual guide within this repository.
 
+
 To the BROAD class, we have added additional levels of "Open Water", to calculate the % of benthos within each image, and "Unknown", to account for the frequent issues of limited visibility typical for forward facing imagery.
+
 
 The FieldOfView class allows the qualification of the image quality within each cell and the "Limited" level is used where benthos or substrate obscurs the cell within ~1m of the camera (typically the length of the diode arm of baited stereo-video systems)
 
+Definition of FoV options:
+o	Facing Down: No open water visible.
+o	Facing Up: No substrate visible.
+o	Limited: BRUV visibly landed on its side or the FoV is obstructed by benthos or substrate within 1m of camera (length of diode arm).
+o	Open: BRUV landed upright and level on the substrate and there is an adequate amount of habitat available for classification.
+
+
 The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes and "Unknown" level to account for cells with limited visibility.
+When the “BROAD” is “Open Water”, “Relief” should be classified as “Unknown”.
+o	 “Relief” type is representative of complexity or the height and angle of substrate. 
+o	 Distinct categories have been adapted from Wilson et al. (2006):
+0.	Flat substrate, sandy, rubble with few features. ~0 substrate slope.
+1.	Some relief features amongst mostly flat substrate/sand/rubble. <45 degree substrate slope.
+2.	Mostly relief features amongst some flat substrate or rubble. ~45 substrate slope.
+3.	Good relief structure with some overhangs. >45 substrate slope.
+4.	High structural complexity, fissures and caves. Vertical wall. ~90 substrate slope.
+5.	Exceptional structural complexity, numerous large holes and caves. Vertical wall. ~90 substrate slope.
 
 <HR>
 </HR>
