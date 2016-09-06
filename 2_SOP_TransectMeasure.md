@@ -8,9 +8,11 @@
 [Load images and attribute file](#transectmeasure)<br></br>
 [Setting and overlaying the grid](#method)<br></br>
 [Classifying the habitat in an image](#classifying)<br></br>
-[TransectMeasure example](#transectmeasure-example)<br></br>
+[Saving and exporting from TransectMeasure](#transectmeasure-export)<br></br>
 [Bibliography](#bibliography)
 
+<HR>
+</HR>
 
 #<a name="transectmeasure"></a>Load images and attribute file
 
@@ -39,7 +41,8 @@
 
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/18273154/8d3c72b2-746e-11e6-9b84-cac36a2f786d.JPG "Load attribute file")
 
-
+<HR>
+</HR>
 
 #<a name="method"></a>Setting and overlaying the grid
 
@@ -55,6 +58,9 @@
 
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/18273176/b00f08fe-746e-11e6-82f2-ab29094f7403.JPG "Overlay grid")
 
+
+<HR>
+</HR>
 
 
 #<a name="classifying"></a>Classifying the habitat in an image
@@ -99,6 +105,8 @@ Definition of FoV options:
 
 <b>Open:</b> BRUV landed upright and level on the substrate and there is an adequate amount of habitat available for classification.
 
+<HR>
+</HR>
 
 The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes and "Unknown" level to account for cells with limited visibility.
 
@@ -124,29 +132,46 @@ The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes an
 
 vi.	The dropdown for “CODE” is automatically filled by an eight digit code once all possible categories have been selected for that rectangle. Codes are sourced from the CATAMI classification scheme and are dependent on the combination of the first three options selected (i.e. “BROAD”, “MORPHOLOGY” and “TYPE”). Please see below.
 
-2)	Continue to classify each rectangle in the image until all 20 are classified. To find any points not classified across one or all images classified: “Measurements”  “Show images with missing label attributes”  will take you to the point to be classified.
-
-3)	To go to the next image: Select the “next” arrow box to skip to the next image to be classified. This may not always work if the images have not been labelled in a numerical sequence. If this is the case load the next image like the first by going to “Picture”  “Load picture ...”. 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273210/d338f7e0-746e-11e6-929e-085d3f9f6c09.JPG "Attribute editor")
 
 
+2)	Continue to classify each rectangle in the image until all 20 are classified. To find any points not classified across one or all images classified: “Measurements” > “Show images with missing label attributes” > will take you to the point to be classified.
 
+3)	To go to the next image: Select the “next” arrow box to skip to the next image to be classified. This may not always work if the images have not been labelled in a numerical sequence. If this is the case load the next image like the first by going to “Picture” > “Load picture ...”. 
 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18274021/f92d276a-7472-11e6-8954-d1608ca211f3.JPG "Next image")
 
-Saving and exporting from TransectMeasure
+<HR>
+</HR>
 
-1)	To save your work: “Measurements”  “Write to file ...” This creates a TMObs file where your habitat classification progress will be saved.
-For saving and operating purposes (TM tends to lag when >50 images have been analysed), load and save only 50 images per TMObs. 
+#<a name="transectmeasure-export"></a>Saving and exporting from TransectMeasure
 
+1)	To save your work: “Measurements” > “Write to file ...” This creates a TMObs file where your habitat classification progress will be saved.
+
+<i>For saving and operating purposes (TM tends to lag when >50 images have been analysed), load and save only 50 images per TMObs.</i>
+
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18274036/0c2f266a-7473-11e6-88d6-15310ffaa12e.JPG "Saving")
 
 
 2)	To export TMObs file: 
-i.	 “Program”  “Batch text file output ...”
+i.	 “Program” > “Batch text file output ...”
+
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18274045/1f6b387c-7473-11e6-9d65-4de84a0716a3.JPG "Batch output")
 
 
-ii.	This box should appear: Double click to the right of the ✓ (under “Data”) in the “Input file directory” row then locate the folder where your TMObs file has been saved  then do the same for the “output file directory” to specify the folder location for saving your text file. Then click “Process”.
+ii.	This box should appear: Double click to the right of the ✓ (under “Data”) in the “Input file directory” row then locate the folder where your TMObs file has been saved > then do the same for the “output file directory” to specify the folder location for saving your text file. Then click “Process”.
 
-iii.	Your habitat classification output (text file) should look something like this. Goodluck!
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18274059/322e1a2e-7473-11e6-968b-7493452084bd.JPG "Process")
 
-References
-Hill, N., Althaus, F., Rees, T., et al., 2014. CATAMI Classification Scheme for Scoring Marine Biota and Substrata in Underwater Imagery Version 1.4: December 2014
-Wilson, S. K., N. A. J. Graham, and N. V. C. Polunin. 2006. “Appraisal of Visual Assessments of Habitat Complexity and Benthic Composition on Coral Reefs.” Marine Biology 151 (3). Springer-Verlag: 1069–76.
+
+iii.	Your habitat classification output (text file) should look something like this. Now you can use the R scripts provided in this repository to produce a tidy data set of % cover and mean and sd of relief for each sample.
+
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18274080/4ebf0f72-7473-11e6-8393-5ff2bd29ea88.JPG "Process")
+
+<HR>
+</HR>
+
+#<a name="bibliography"></a>Bibliography
+1. Hill, N., Althaus, F., Rees, T., et al., 2014. CATAMI Classification Scheme for Scoring Marine Biota and Substrata in Underwater Imagery Version 1.4: December 2014
+<br></br>
+2.Wilson, S. K., N. A. J. Graham, and N. V. C. Polunin. 2006. “Appraisal of Visual Assessments of Habitat Complexity and Benthic Composition on Coral Reefs.” Marine Biology 151 (3). Springer-Verlag: 1069–76.
