@@ -1,9 +1,20 @@
-QUICK GUIDE: Standard Operating Procedure for Habitat Annotation using TransectMeasure
+# Standard Operating Procedure for Habitat Annotation using TransectMeasure
 
-Loading all images and setting the attribute file
+<HR>
+</HR>
+
+<b>Table of contents</b>
+
+[Load images and attribute file](#transectmeasure)<br></br>
+[Method](#method)<br></br>
+[Recommended approaches](#recommended-approaches)<br></br>
+[TransectMeasure example](#transectmeasure-example)<br></br>
+[Bibliography](#bibliography)
+
+
+#<a name="transectmeasure"></a>Load images and attribute file
 
 1)	Open the program “TransectMeasure” and you will be welcomed with a blank screen. 
-
 
 2)	To start an analysis for a new set of images: “Measurement”  “New measurement file” OR select “Read from file ...” if you are working from a previously saved TMObs (see ‘Saving and exporting from TransectMeasure’ further down). 
 
