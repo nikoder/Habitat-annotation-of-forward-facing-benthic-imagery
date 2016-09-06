@@ -53,34 +53,74 @@
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/18273168/a5054a04-746e-11e6-8a1b-e80888eab9f4.JPG "Overlay grid")
 
 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273176/b00f08fe-746e-11e6-82f2-ab29094f7403.JPG "Overlay grid")
+
+
+
 #<a name="classifying"></a>Classifying the habitat in an image
 
 
 1)	To classify each ‘rectangle’ in the grid: 
+
 i.	Left click on a point in the middle of a ‘rectangle’ to display the “Attribute editor”.  
 
-ii.	Select the most dominant habitat from the “BROAD” dropdown (includes benthos*, un/consolidated substrate, open water** or unknown***) in the ‘rectangle’ that you selected, independently of all others in the grid (i.e. do not look across the whole image and decide that hard coral makes up at least one rectangle). Note: Zoom into an image to analyse the habitat more closely by holding down the ctrl key, hovering over the area of interest then adjusting the zoom value accordingly (find “Zoom” at the top left to adjust the magnification level). 
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273190/bfdf91b8-746e-11e6-9964-4c1c88deec09.JPG "Attribute editor")
+
+ii. If you are using:
+<b>Standard (rapid) assessment</b> of Benthic Composition, Field of View and Relief we recommend using ONLY the:
+BROAD/FieldOfView/Relief classes. 
+OR
+if you using:
+<b>Detailed assessment</b> of Benthic Composition (where coral bleaching or macroalgae compostion was of interest), Field of View and Relief we recommend using all the classes in the schema:
+BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes. 
+
+iii.	Select the most dominant habitat from the “BROAD” dropdown (includes benthos*, un/consolidated substrate, open water** or unknown***) in the ‘rectangle’ that you selected, independently of all others in the grid (i.e. do not look across the whole image and decide that hard coral makes up at least one rectangle). 
+
+<i>Note: Zoom into an image to analyse the habitat more closely by holding down the ctrl key, hovering over the area of interest then adjusting the zoom value accordingly (find “Zoom” at the top left to adjust the magnification level). </i>
+
 *Includes of number of broad types, for example, Ascidians, Bryozoa, Crinoids, etc.
 **Accounts for parts of the image that are not benthos or substrate to calculate % coverage by habitat type. 
 ***Indistinguishable habitat when visibility is poor.
-iii.	Continue to populate each dropdown (where possible) after “BROAD” (i.e. “MORPHOLOGY”  “TYPE”  “FieldOfView”  “Relief”). The “MORPHOLOGY” and “TYPE” drop down options will change depending on which “BROAD” option is chosen (e.g. dropdown levels are only provided for “FieldOfView” and “Relief” only if “Open Water” is selected). Click “Clear” to reset the dropdowns for all categories.
+
+iii.	Continue to populate each dropdown (where possible) after “BROAD” (i.e. “MORPHOLOGY” > “TYPE” > “FieldOfView” > “Relief”). The “MORPHOLOGY” and “TYPE” drop down options will change depending on which “BROAD” option is chosen (e.g. dropdown levels are only provided for “FieldOfView” and “Relief” only if “Open Water” is selected). Click “Clear” to reset the dropdowns for all categories.
+
 iv.	“FieldOfView” (FoV) refers to the horizontal position of the BRUV on the substrate and must be selected for every ‘rectangle’ in the grid and kept constant across the image (i.e. if one of the cameras is facing up every rectangle must be categorised as facing up).
+
+
+The FieldOfView class allows the qualification of the image quality within each cell and the "Limited" level is used where benthos or substrate obscurs the cell within ~1m of the camera (typically the length of the diode arm of baited stereo-video systems)
+
 Definition of FoV options:
-o	Facing Down: No open water visible.
-o	Facing Up: No substrate visible.
-o	Limited: BRUV visibly landed on its side or the FoV is obstructed by benthos or substrate within 1m of camera (length of diode arm). 
-o	Open: BRUV landed upright and level on the substrate and there is an adequate amount of habitat available for classification.
-v.	“Relief” must also be independently classified for every ‘rectangle’ in an image. When the “BROAD” is “Open Water”, “Relief” should be classified as “Unknown”.
-o	 “Relief” type is representative of complexity or the height and angle of substrate. 
-o	 Distinct categories have been adapted from Wilson et al. (2006):
-0.	Flat substrate, sandy, rubble with few features. ~0 substrate slope.
-1.	Some relief features amongst mostly flat substrate/sand/rubble. <45 degree substrate slope.
-2.	Mostly relief features amongst some flat substrate or rubble. ~45 substrate slope.
-3.	Good relief structure with some overhangs. >45 substrate slope.
-4.	High structural complexity, fissures and caves. Vertical wall. ~90 substrate slope.
-5.	Exceptional structural complexity, numerous large holes and caves. Vertical wall. ~90 substrate slope.
+
+<b>Facing Down:</b> No open water visible.
+
+<b>Facing Up:</b> No substrate visible.
+
+<b>Limited:</b> BRUV visibly landed on its side or the FoV is obstructed by benthos or substrate within 1m of camera (length of diode arm).
+
+<b>Open:</b> BRUV landed upright and level on the substrate and there is an adequate amount of habitat available for classification.
 
 
+The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes and "Unknown" level to account for cells with limited visibility.
+
+<i>When the “BROAD” is “Open Water”, “Relief” should be classified as “Unknown”.</i>
+
+“Relief” type is representative of complexity or the height and angle of substrate. Distinct categories have been adapted from Wilson et al. (2006):
+
+<b>0.</b>	Flat substrate, sandy, rubble with few features. ~0 substrate slope.
+
+<b>1.</b>	Some relief features amongst mostly flat substrate/sand/rubble. <45 degree substrate slope.
+
+<b>2.</b>	Mostly relief features amongst some flat substrate or rubble. ~45 substrate slope.
+
+<b>3.</b>	Good relief structure with some overhangs. >45 substrate slope.
+
+<b>4.</b>	High structural complexity, fissures and caves. Vertical wall. ~90 substrate slope.
+
+<b>5.</b>	Exceptional structural complexity, numerous large holes and caves. Vertical wall. ~90 substrate slope.
+
+
+<HR>
+</HR>
 
 vi.	The dropdown for “CODE” is automatically filled by an eight digit code once all possible categories have been selected for that rectangle. Codes are sourced from the CATAMI classification scheme and are dependent on the combination of the first three options selected (i.e. “BROAD”, “MORPHOLOGY” and “TYPE”). Please see below.
 
