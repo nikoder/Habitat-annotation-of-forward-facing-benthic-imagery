@@ -30,7 +30,9 @@ To simplify the annotation process and still represent multiple scales of habita
 
 Protocol: each of the cells is annotated for dominant Benthic Composition, Field of View and Relief.
 
-![alt text](https://cloud.githubusercontent.com/assets/14978794/17895290/3628ea54-697f-11e6-80c0-3633435d75f9.PNG "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects. Using TransectMeasure software")
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273176/b00f08fe-746e-11e6-82f2-ab29094f7403.JPG "TransectMeasure software")
+
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18273210/d338f7e0-746e-11e6-929e-085d3f9f6c09.JPG "Application of annotation approach to characterise benthic composition and benthic complexity from horizontally facing remote video or from diver swum transects.")
 
 <HR>
 </HR>
