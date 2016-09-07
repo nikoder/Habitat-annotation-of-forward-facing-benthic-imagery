@@ -14,7 +14,7 @@ Habitat annotation of horizontally facing benthic imagery from baited and unbait
 
 #<a name="introduction"></a>Introduction
 
-We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/CATAMI-visual-guide-latest.pdf">CATAMI classification scheme</a><sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. 
+We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/visual_guide_CATAMI.pdf">CATAMI classification scheme</a><sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. 
 
 The annotation approach is rapid and produces % composition and mean and standard deviation estimates of complexity which enable flexible modeling of habitat occurrence and habitat-fish relationships.
 
