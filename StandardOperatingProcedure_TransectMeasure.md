@@ -73,10 +73,13 @@ i.	Left click on a point in the middle of a ‘rectangle’ to display the “At
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/18273190/bfdf91b8-746e-11e6-9964-4c1c88deec09.JPG "Attribute editor")
 
 ii. If you are using:
+
 <b>Standard (rapid) assessment</b> of Benthic Composition, Field of View and Relief we recommend using ONLY the:
 BROAD/FieldOfView/Relief classes. 
 OR
-if you using:
+
+if you are using:
+
 <b>Detailed assessment</b> of Benthic Composition (where coral bleaching or macroalgae compostion was of interest), Field of View and Relief we recommend using all the classes in the schema:
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes. 
 
