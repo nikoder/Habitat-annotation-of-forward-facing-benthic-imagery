@@ -10,6 +10,7 @@ Habitat annotation of horizontally facing benthic imagery from baited and unbait
 [Method](#method)<br></br>
 [Recommended approaches](#recommended-approaches)<br></br>
 [TransectMeasure example](#transectmeasure-example)<br></br>
+[Example data and R scripts](#r-example)<br></br>
 [Bibliography](#bibliography)
 
 #<a name="introduction"></a>Introduction
@@ -104,7 +105,12 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 
 The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/Transect%20Measure%20Habitat%20Codes_160705.txt">attribute text file</a> for uploading the schema to TransectMeasure is provided in this repository.
 
-For more information please see the a <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/StandardOperatingProcedure_TransectMeasure.md">Standard Operating Procedure for TransectMeasure</a>. 
+For more information please see the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/StandardOperatingProcedure_TransectMeasure.md">Standard Operating Procedure for TransectMeasure</a>. 
+
+#<a name="r-example"></a>Example data and R scripts
+
+Also provided is an <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_Annotation_Workflow_usingR.md">annotation workflow example, R script and example habitat annotation data</a>. 
+
 
 <HR>
 </HR>
