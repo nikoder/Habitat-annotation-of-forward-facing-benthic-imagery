@@ -15,10 +15,10 @@
 
 # Set directories----
 rm(list=ls())
-study<-"Examples"
+study<-"Example"
 
-data.dir=("~/ownCloud/GitHub_Examples")
-# data.dir=("C:/Tims Documents/ownCloud/GitHub_Examples")
+data.dir=("~/ownCloud/GitHub_Example")
+# data.dir=("C:/Tims Documents/ownCloud/GitHub_Example")
 
 habitat.data=paste(data.dir,"Data/Habitat",sep="/")
 tidy.data=paste(data.dir,"Data/Tidy data",sep="/")
