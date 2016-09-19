@@ -18,7 +18,9 @@ Example workflow using R to format and calculate mean and sd rugosity and % habi
 
 The example R script is designed to import and format the raw annotation output from TransectMeasure and calculate mean and sd rugosity and % habitat cover.
 
-The script uses 
+The script uses Data Wrangling grammar from the tidyr and dplyr packages and data piplines.
+For more information see the grammar of tidyr and dplyr see the <a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">Data Wrangling cheat sheet</a>. 
+
 
 
 #<a name="introduction"></a>Folder structure
