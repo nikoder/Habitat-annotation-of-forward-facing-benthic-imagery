@@ -37,7 +37,7 @@ library(stringr)
 # Load and format habitat annotation data from TransectMeasure----
 setwd(habitat.data)
 dir()
-hab<-read.delim('x_Example_BRUV_Habitat.txt',header=T,skip=4,stringsAsFactors=FALSE)%>%
+hab<-read.delim('x_Example_BRUV_TM_HabitatAnnotation.txt',header=T,skip=4,stringsAsFactors=FALSE)%>%
   setNames(tolower(names(.)))%>%
   mutate(OpCode=str_replace_all(.$filename, "[.jpg_]", ""))%>%
   select(-c(filename,x,x.1,frame,time..mins.,date,location,site..,transect..,latitude,longitude,rugosity,depth,collector,fishing.status,spare,spare.1,code,radius..))
