@@ -1,5 +1,5 @@
 # HabitatAnnotation
-Habitat annotation of horizontally facing benthic imagery from baited and unbaited remote stereo-video deployments and diver swum stereo-video transects. With an applied example using the TransectMeasure software from www.seagis.com.au
+Habitat annotation of horizontally facing benthic imagery from baited and unbaited remote stereo-or-mono-video deployments and diver swum stereo-video transects. With an applied example using the TransectMeasure software from www.seagis.com.au
 
 <HR>
 </HR>
