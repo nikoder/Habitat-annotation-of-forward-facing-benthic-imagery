@@ -22,7 +22,7 @@ Please refer to this GitHub repository for updated versions of the annotation sc
 
 The example <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_ExampleR_1_HabitatAnnotation_Format.and.write.data_160919.R">R script</a> is designed to import and format the raw annotation output from TransectMeasure and calculate mean and sd rugosity and % habitat cover.
 
-The script uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines.
+The script uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines. These packages shoulod be cited if you use the script.
 For more information on the grammar of tidyr and dplyr see the <a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">Data Wrangling cheat sheet</a>. 
 
 <HR>
