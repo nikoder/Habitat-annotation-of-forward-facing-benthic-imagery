@@ -28,7 +28,9 @@ plots=paste(data.dir,"Plots",sep="/")
 # Libraries required
 detach("package:plyr", unload=TRUE)#will error - no worries
 library(tidyr)
+citation("tidyr")
 library(dplyr)
+citation("dplyr")
 options(dplyr.width = Inf) #enables head() to display all coloums
 library(ggplot2)
 library(stringr)
@@ -37,14 +39,12 @@ library(stringr)
 # Load and format habitat annotation data from TransectMeasure----
 setwd(habitat.data)
 dir()
-hab<-read.delim('x_Example_BRUV_TM_HabitatAnnotation.txt',header=T,skip=4,stringsAsFactors=FALSE)%>%
+hab<-read.delim('x_ExampleData_BRUV_TM_HabitatAnnotation.txt',header=T,skip=4,stringsAsFactors=FALSE)%>%
   setNames(tolower(names(.)))%>%
   mutate(OpCode=str_replace_all(.$filename, "[.jpg_]", ""))%>%
   select(-c(filename,x,x.1,frame,time..mins.,date,location,site..,transect..,latitude,longitude,rugosity,depth,collector,fishing.status,spare,spare.1,code,radius..))
 head(hab)
-unique(hab$fieldofview)
-names(hab)
-filter(hab,OpCode=="NCB1530")
+
 
 # Create %fov----
 fov<-hab%>%
@@ -53,16 +53,14 @@ fov<-hab%>%
   filter(!is.na(fieldofview))%>%
   mutate(fieldofview=paste("fov",fieldofview,sep = "."))%>%
   mutate(count=1)%>%
-  spread(key=fieldofview,value=count)%>%
+  spread(key=fieldofview,value=count, fill=0)%>%
   select(-c(image.row,image.col))%>%
   group_by(OpCode)%>%
   summarise_each(funs(sum))%>%
   group_by(OpCode)%>%
   mutate_each(funs(.*5))%>%
   mutate_each(funs(replace(.,is.na(.),0)))
-head(fov)
-unique(fov$OpCode)
-
+head(fov,30)
 
 
 # Create relief----
@@ -74,9 +72,8 @@ relief<-hab%>%
   select(-c(relief))%>%
   mutate(relief.rank=as.numeric(relief.rank))%>%
   group_by(OpCode)%>%
-  summarise (mean.relief= mean (relief.rank), sd.relief= sd (relief.rank)) 
+  summarise(mean.relief= mean (relief.rank), sd.relief= sd (relief.rank))
 head(relief)
-unique(relief$OpCode)
 
 
 # CREATE catami_broad------
@@ -90,10 +87,10 @@ broad<-hab%>%
   mutate(broad=paste("broad",broad,sep = "."))%>%
   mutate(count=1)%>%
   group_by(OpCode)%>%
-  spread(key=broad,value=count)%>%
+  spread(key=broad,value=count,fill=0)%>%
   select(-c(image.row,image.col))%>%
   group_by(OpCode)%>%
-  mutate_each(funs(replace(.,is.na(.),0)))%>%
+  # mutate_each(funs(replace(.,is.na(.),0)))%>%
   summarise_each(funs(sum))%>%
   mutate(Total.Sum=rowSums(.[,2:(ncol(.))],na.rm = TRUE ))%>%
   group_by(OpCode)%>%
@@ -112,10 +109,10 @@ morphology<-hab%>%
   mutate(morphology=paste("morph",morphology,sep = "."))%>%
   mutate(count=1)%>%
   group_by(OpCode)%>%
-  spread(key=morphology,value=count)%>%
+  spread(key=morphology,value=count,fill=0)%>%
   select(-c(image.row,image.col))%>%
   group_by(OpCode)%>%
-  mutate_each(funs(replace(.,is.na(.),0)))%>%
+  # mutate_each(funs(replace(.,is.na(.),0)))%>%
   summarise_each(funs(sum))%>%
   mutate(Total.Sum=rowSums(.[,2:(ncol(.))],na.rm = TRUE ))%>%
   group_by(OpCode)%>%
@@ -133,10 +130,10 @@ type<-hab%>%
   mutate(type=paste("type",type,sep = "."))%>%
   mutate(count=1)%>%
   group_by(OpCode)%>%
-  spread(key=type,value=count)%>%
+  spread(key=type,value=count,fill=0)%>%
   select(-c(image.row,image.col))%>%
   group_by(OpCode)%>%
-  mutate_each(funs(replace(.,is.na(.),0)))%>%
+  # mutate_each(funs(replace(.,is.na(.),0)))%>%
   summarise_each(funs(sum))%>%
   mutate(Total.Sum=rowSums(.[,2:(ncol(.))],na.rm = TRUE ))%>%
   group_by(OpCode)%>%
@@ -157,7 +154,7 @@ habitat<-relief%>%
   # left_join(type,by="OpCode")
 head(habitat)
 names(habitat)
-write.csv(habitat,file=paste(study,"habitat.csv",sep = "_"), row.names=FALSE)
+write.csv(habitat,file=paste("x",study,"R_habitat.output.csv",sep = "_"), row.names=FALSE)
 
 
 # Habitat.plot----
@@ -168,9 +165,10 @@ habitat.plot<-habitat%>%
 head(habitat.plot)
 
 habitat.ggplot<-ggplot(habitat.plot,aes(x=value))+
-  # geom_boxplot()+
   geom_histogram()+
-  facet_grid(habitat~.,scales="free")
+  facet_grid(habitat~.,scales="free")+
+  ylab("Percent cover or Value")+
+  theme(strip.text.y = element_text(angle=0))
 habitat.ggplot
-ggsave(habitat.ggplot,file=paste(study,"habitat.ggplot.png",sep = "_"), width = 10, height = 25,units = "cm")
+ggsave(habitat.ggplot,file=paste("x",study,"R_habitat.plot.png",sep = "_"), width = 10, height = 25,units = "cm")
 
