@@ -109,9 +109,9 @@ For more information please see the  <a href="https://github.com/TimLanglois/Hab
 
 #<a name="r-example"></a>Example data and R scripts
 
-Also provided is an <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_Annotation_Workflow_usingR.md">annotation workflow example, R script and example habitat annotation data</a>. 
+Also provided is an <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_1_RWorkflow.md"> R workflow example, including script, example habitat annotation data and outputs</a>. 
 
-
+https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_1_RWorkflow.md
 <HR>
 </HR>
 
