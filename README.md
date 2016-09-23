@@ -103,7 +103,8 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 
 #<a name="transectmeasure-example"></a>TransectMeasure example
 
-The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/Transect%20Measure%20Habitat%20Codes_160705.txt">attribute text file</a> for uploading the schema to TransectMeasure is provided in this repository.
+The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TransectMeasure_Schema_AttributeFile_160705.txt">attribute text file</a> for uploading the schema to TransectMeasure is provided in this repository.
+
 
 For more information please see the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/StandardOperatingProcedure_TransectMeasure.md">Standard Operating Procedure for TransectMeasure</a>. 
 
