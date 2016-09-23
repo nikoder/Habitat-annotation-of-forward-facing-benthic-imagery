@@ -1,4 +1,4 @@
-# Annotation workflow using R 
+# R workflow 
 Example workflow using R to format and calculate mean and sd rugosity and % habitat cover from Habitat annotation applied using the TransectMeasure software from www.seagis.com.au.
 
 This annotation schema and R script is described and included in a published paper<sup>1</sup>, please cite if you use it.
