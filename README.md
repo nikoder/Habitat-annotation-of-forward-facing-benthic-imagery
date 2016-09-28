@@ -17,7 +17,7 @@ Habitat annotation of horizontally facing benthic imagery from baited and unbait
 
 We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/visual_guide_CATAMI.pdf">CATAMI classification scheme</a><sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. 
 
-The annotation approach is rapid and produces % composition and mean and standard deviation estimates of complexity which enable flexible modeling of habitat occurrence and habitat-fish relationships.
+The annotation approach is rapid and produces % composition and mean and standard deviation estimates of complexity which enable flexible modelling of habitat occurrence and habitat-fish relationships.
 
 This annotation schema is described and included in a published paper<sup>3</sup>, please cite if you use it.
 Please refer to this GitHub repository for updated versions of the annotation schema.
@@ -27,7 +27,7 @@ Parts of this annotation scheme have also been trailed in two further published 
 <HR>
 </HR>
 
-To simplify the annotation process and still represent multiple scales of habitat in horizontaly facing imagery, we have gridded the images in 5 x 4 cells.
+To simplify the annotation process and still represent multiple scales of habitat in horizontally facing imagery, we have gridded the images in 5 x 4 cells.
 
 Protocol: each of the cells is annotated for dominant Benthic Composition, Field of View and Relief.
 
@@ -42,16 +42,16 @@ Protocol: each of the cells is annotated for dominant Benthic Composition, Field
 
 #<a name="method"></a>Method
 
-The annotation schema is made up of nested Benthic Composition classes taken from the CATAMI schema and a Field of View and Relief class that are useful for characterising horizonatlly facing imagery.
+The annotation schema is made up of nested Benthic Composition classes taken from the CATAMI schema and a Field of View and Relief class that are useful for characterising horizontally facing imagery.
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief
 
-For detailed information on the particular taxanomic levels within the BROAD>MORPHOLOGY>TYPE classifications provided in this annotation schema, please consult the CATAMI visual guide within this repository.
+For detailed information on the particular taxonomic levels within the BROAD>MORPHOLOGY>TYPE classifications provided in this annotation schema, please consult the CATAMI visual guide within this repository.
 
 
 To the BROAD class, we have added additional levels of "Open Water", to calculate the % of benthos within each image, and "Unknown", to account for the frequent issues of limited visibility typical for forward facing imagery.
 
 
-The FieldOfView class allows the qualification of the image quality within each cell and the "Limited" level is used where benthos or substrate obscurs the cell within ~1m of the camera (typically the length of the diode arm of baited stereo-video systems)
+The FieldOfView class allows the qualification of the image quality within each cell and the "Limited" level is used where benthos or substrate obscures the cell within ~1m of the camera (typically the length of the diode arm of baited stereo-video systems)
 
 Definition of FoV options:
 
@@ -64,7 +64,7 @@ Definition of FoV options:
 <b>Open:</b> BRUV landed upright and level on the substrate and there is an adequate amount of habitat available for classification.
 
 
-The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes and "Unknown" level to account for cells with limited visibility.
+The Relief class uses a 0-5 quantification of relief <sup>2</sup> and includes and "Unknown" level to account for cells with limited visibility.
 
 <i>When the “BROAD” is “Open Water”, “Relief” should be classified as “Unknown”.</i>
 
@@ -94,7 +94,7 @@ An experienced analyst would be able to annotate this schema to over 200 images 
 <br></br>
 OR
 <br></br>
-<b>Detailed assessment</b> of Benthic Composition (where coral bleaching or macroalgae compostion was of interest), Field of View and Relief we recommend using all the classes in the schema:
+<b>Detailed assessment</b> of Benthic Composition (where coral bleaching or macroalgae composition was of interest), Field of View and Relief we recommend using all the classes in the schema:
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes. 
 An experienced analyst would be able to annotate this schema to over 120 images a day.
 
@@ -103,7 +103,7 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 
 #<a name="transectmeasure-example"></a>TransectMeasure example
 
-The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TransectMeasure_Schema_AttributeFile_160705.txt"> Detailed assement attribute text file</a> or the <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TransectMeasure_Schema_AttributeFile_BROAD%20ONLY_1600909.txt"> Rapid assement attribute text file</a> for uploading the schema to TransectMeasure is provided in this repository.
+The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TransectMeasure_Schema_AttributeFile_160705.txt"> Detailed assessment attribute text file</a> or the <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TransectMeasure_Schema_AttributeFile_BROAD%20ONLY_1600909.txt"> Rapid assessment attribute text file</a> for uploading the schema to TransectMeasure is provided in this repository.
 
 
 
@@ -127,3 +127,4 @@ Also provided is an <a href="https://github.com/TimLanglois/HabitatAnnotation/bl
 4. Collins, Danielle, Tim J. Langlois, Todd Bond, Thomas H. Holmes, Euan S. Harvey, Rebecca Fisher Dianne L. McLean. In press. “A novel stereo-video method to investigate fish-habitat relationships.” Methods in Ecology and Evolution.
 <br></br>
 5. Katherine Bennett, Tim Langlois , George Shedrawi , Shaun Wilson, Dianne McLean. In press. “Can Diver Operated Stereo-Video Surveys for Fish Be Used to Collect Meaningful Data on Benthic Coral Reef Communities?” Limnology and Oceanography, Methods / ASLO.
+
