@@ -86,7 +86,7 @@ OR
 
 if you are using:
 
-<b>Detailed assessment</b> of Benthic Composition (where coral bleaching or macroalgae compostion was of interest), Field of View and Relief we recommend using all the classes in the schema:
+<b>Detailed assessment</b> of Benthic Composition (where coral bleaching or macroalgae composition was of interest), Field of View and Relief we recommend using all the classes in the schema:
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes. 
 
 iii.	Select the most dominant habitat from the “BROAD” dropdown (includes benthos*, un/consolidated substrate, open water** and unknown***) in the ‘rectangle’ that you selected, independently of all others in the grid (i.e. do not look across the whole image and decide that hard coral makes up at least one rectangle). 
@@ -99,7 +99,7 @@ iii.	Select the most dominant habitat from the “BROAD” dropdown (includes be
 
 iii.	Continue to populate each dropdown (where possible) after “BROAD” (i.e. “MORPHOLOGY” > “TYPE” > “FieldOfView” > “Relief”). The “MORPHOLOGY” and “TYPE” drop down options will change depending on which “BROAD” option is chosen (e.g. dropdown levels are only provided for “FieldOfView” and “Relief” when “Open Water” is selected). Select “Clear” to reset the dropdowns for all of the categories.
 
-iv.	“FieldOfView” (FoV) depends on how the BRUV is positioned when it lands on the substrate and is usually kept the same for every 'rectangle' in an image. The exception occurs when benthos or substrate obscurs a 'rectangle' within ~1m of the camera (typically the length of the diode arm on a BRUV). In this instance the "Limited" option must be selected for the obscurred 'rectangles' only.
+iv.	“FieldOfView” (FoV) depends on how the BRUV is positioned when it lands on the substrate and is usually kept the same for every 'rectangle' in an image. The exception occurs when benthos or substrate obscures a 'rectangle' within ~1m of the camera (typically the length of the diode arm on a BRUV). In this instance the "Limited" option must be selected for the obscured 'rectangles' only.
 
 Definition of FoV options:
 
@@ -114,7 +114,7 @@ Definition of FoV options:
 <HR>
 </HR>
 
-The Relief class uses a 0-5 quatification of relief <sup>2</sup> and includes an "Unknown" level to account for 'rectangles' with a "Limited" FoV.
+The Relief class uses a 0-5 quantification of relief <sup>2</sup> and includes an "Unknown" level to account for 'rectangles' with a "Limited" FoV.
 
 <i>When the “BROAD” category is “Open Water”, “Relief” should be classified as “Unknown”.</i>
 
