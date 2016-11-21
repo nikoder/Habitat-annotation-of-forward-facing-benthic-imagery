@@ -103,8 +103,11 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 
 #<a name="transectmeasure-example"></a>TransectMeasure example
 
-The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TransectMeasure_Schema_AttributeFile_160705.txt"> Detailed assessment attribute text file</a> or the <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TransectMeasure_Schema_AttributeFile_BROAD%20ONLY_1600909.txt"> Rapid assessment attribute text file</a> for uploading the schema to TransectMeasure is provided in this repository.
+The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the 
+<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TM%20schema_BROAD%20ONLY.txt"> Rapid assessment attribute text file</a> and the 
+<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TM-schema_BROAD.MORPH.TYPE.txt"> Detailed assessment attribute text file</a> or thefor uploading the schema to TransectMeasure is provided in this repository.
 
+To download these text files so that they can be uploaded to TM, in GitHub select the file and then use "Raw" view. The file can then be downloaded as a .txt.
 
 
 For more information please see the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/StandardOperatingProcedure_TransectMeasure.md">Standard Operating Procedure for TransectMeasure</a>. 
