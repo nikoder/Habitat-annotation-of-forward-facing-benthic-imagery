@@ -1,5 +1,5 @@
 # R workflow 
-Example workflow using R to format and calculate mean and sd rugosity and % habitat cover from Habitat annotation applied using the TransectMeasure software from www.seagis.com.au.
+Example workflow using R to format and calculate point scores, mean and sd rugosity and % habitat cover from Habitat annotation applied using the TransectMeasure software from www.seagis.com.au.
 
 This annotation schema and R script is described and included in a published paper<sup>1</sup>, please cite if you use it.
 Please refer to this GitHub repository for updated versions of the annotation schema and R script.
@@ -20,9 +20,9 @@ Please refer to this GitHub repository for updated versions of the annotation sc
 
 #<a name="method"></a>Example R script
 
-The example <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_ExampleR_1_HabitatAnnotation_Format.and.write.data_160919.R">R script</a> is designed to import and format the raw annotation output from TransectMeasure and calculate mean and sd rugosity and % habitat cover.
+The example <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_ExampleR_0_HabitatAnnotation_Format.and.write.data_170519.R">R script</a> is designed to import and format the raw annotation output from TransectMeasure and calculate point scores, mean and sd rugosity and % habitat cover.
 
-The script uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines. These packages shoulod be cited if you use the script.
+The script uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines. These packages should be cited if you use the script.
 For more information on the grammar of tidyr and dplyr see the <a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">Data Wrangling cheat sheet</a>. 
 
 <HR>
@@ -37,9 +37,17 @@ An example of <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/mas
 
 #<a name="output-example"></a>Example output data and plot
 
-The <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_Example_R_habitat.output.csv">output </a> and a simple plot of the habitat data expected from the R script is provided below.
+The script will produve two outputs:
 
-![alt text](https://cloud.githubusercontent.com/assets/14978794/18690494/f0370136-7fc0-11e6-9be5-6c746bef5483.png "Example plot of habitat data")
+The first is a summary of the habitat and relief annotation as <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_ExampleOutput_habitat.point.score.csv" >point scores </a>, this output will be easily comparable to any outputs produced by squidle+ and will be useful for modeling habitat occurence.
+
+The second is a summary of the habitat and relief annotation as <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_ExampleOutput_habitat.percent.cover.and.mean.and.sd.of.relief.csv">percent cover and mean and SD of relief </a>, this output is more directly useful in data analysis of fish/habitat associations and is directly comparable to other visual estimates of habitat cover.
+
+A simple plot of the habitat data expected from the R script is provided below.
+
+![alt text](https://cloud.githubusercontent.com/assets/14978794/26228361/b6e06392-3c6b-11e7-8c33-013507b0c8f8.png "Example plot of habitat data")
+
+
 
 
 
