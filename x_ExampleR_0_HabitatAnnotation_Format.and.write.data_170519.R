@@ -41,7 +41,7 @@ setwd(habitat.data)
 dir()
 hab<-read.delim('x_ExampleData_BRUV_TM_HabitatAnnotation.txt',header=T,skip=4,stringsAsFactors=FALSE)%>%
   setNames(tolower(names(.)))%>%
-  mutate(OpCode=str_replace_all(.$filename, "[.jpg_JPG]", ""))%>%
+  mutate(OpCode= str_replace_all(.$filename,c(".jpg" = "","_" = "", ".JPG" = "")))%>%
   select(-c(filename,x,x.1,frame,time..mins.,date,location,site..,transect..,latitude,longitude,rugosity,depth,collector,fishing.status,spare,spare.1,code,radius..))
 head(hab,2)
 unique(hab$OpCode)
