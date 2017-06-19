@@ -105,7 +105,7 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 
 The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the 
 <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TM%20schema_BROAD%20ONLY.txt"> Rapid assessment attribute text file</a> and the 
-<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TM%20schema_BROAD.MORPH.TYPE.with%20Invert%20Complex_161219.txt"> Detailed assessment attribute text file</a> or thefor uploading the schema to TransectMeasure is provided in this repository.
+<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TM%20schema_BROAD.MORPH.TYPE.with%20Invert%20Complex_170619.txt"> Detailed assessment attribute text file</a> or thefor uploading the schema to TransectMeasure is provided in this repository.
 
 To download these text files so that they can be uploaded to TM, in GitHub select the file and then use "Raw" view. The file can then be downloaded as a .txt.
 
