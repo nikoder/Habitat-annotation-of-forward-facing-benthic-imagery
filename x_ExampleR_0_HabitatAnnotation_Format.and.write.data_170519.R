@@ -168,18 +168,18 @@ dir()
 
 habitat.point.score<-relief.point.score%>%
   left_join(fov.point.score,by="OpCode")%>%
-  left_join(broad.point.score,by="OpCode")
-# %>%
-#   left_join(broad_morphology_type.point.score,by="OpCode") #use this line if you have morphology_type data
+  left_join(broad.point.score,by="OpCode")%>%
+#   left_join(broad_morphology_type.point.score,by="OpCode")%>% #use this line if you have morphology_type data
+  rename(Sample=OpCode)
 head(habitat.point.score,2)
 write.csv(habitat.point.score,file=paste("x",study,"R_habitat.point.score.csv",sep = "_"), row.names=FALSE)
 
 
 habitat.percent.cover.and.mean.and.sd.of.relief<-relief.mean.and.sd%>%
   left_join(fov.percent.cover,by="OpCode")%>%
-  left_join(broad.percent.cover,by="OpCode")
-# %>%
-#   left_join(broad_morphology_type.percent.cover,by="OpCode") #use this line if you have morphology_type data
+  left_join(broad.percent.cover,by="OpCode")%>%
+#   left_join(broad_morphology_type.percent.cover,by="OpCode")%>% #use this line if you have morphology_type data
+  rename(Sample=OpCode)
 head(habitat.percent.cover.and.mean.and.sd.of.relief,2)
 write.csv(habitat.percent.cover.and.mean.and.sd.of.relief,file=paste("x",study,"R_habitat.percent.cover.and.mean.and.sd.of.relief.csv",sep = "_"), row.names=FALSE)
 
