@@ -1,9 +1,5 @@
 # HabitatAnnotation
 
-
-![alt text](https://zenodo.org/badge/64636099.svg "https://zenodo.org/badge/latestdoi/64636099")
-<small>https://zenodo.org/badge/latestdoi/64636099</small>
-
 [![DOI](https://zenodo.org/badge/64636099.svg)](https://zenodo.org/badge/latestdoi/64636099)
 
 Habitat annotation of benthic imagery from horizontally facing cameras from baited and unbaited remote stereo-or-mono-video deployments and diver swum stereo-video transects. With an applied example using the TransectMeasure software from www.seagis.com.au
