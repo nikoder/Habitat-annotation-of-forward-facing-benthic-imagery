@@ -1,4 +1,7 @@
 # HabitatAnnotation
+
+[![DOI](https://zenodo.org/badge/64636099.svg)](https://zenodo.org/badge/latestdoi/64636099)
+
 Habitat annotation of benthic imagery from horizontally facing cameras from baited and unbaited remote stereo-or-mono-video deployments and diver swum stereo-video transects. With an applied example using the TransectMeasure software from www.seagis.com.au
 
 <HR>
@@ -114,7 +117,9 @@ For more information please see the  <a href="https://github.com/TimLanglois/Hab
 
 #<a name="r-example"></a>Example data and R scripts
 
-Also provided is an <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_1_RWorkflow.md"> R workflow example, including script, example habitat annotation data and outputs</a>. 
+Also provided is an <a href="https://github.com/TimLanglois/Habitat-annotation-of-forward-facing-benthic-imagery/blob/master/RWorkflow.md"> R workflow example, including script, example habitat annotation data and outputs</a>. 
+
+
 
 <HR>
 </HR>
