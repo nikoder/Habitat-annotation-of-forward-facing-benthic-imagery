@@ -91,6 +91,8 @@ BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief classes.
 
 iii.	Select the most dominant habitat from the “BROAD” dropdown (includes benthos*, un/consolidated substrate, open water** and unknown***) in the ‘rectangle’ that you selected, independently of all others in the grid (i.e. do not look across the whole image and decide that hard coral makes up at least one rectangle). 
 
+<i>Note: For ‘rectangle’ with 'Open water' - you should annotate ANY benthos within the 'rectangle'. 'Rectangle''s should only be anotated as'Open water' if they are 100% 'Open water'.
+
 <i>Note: Zoom into an image to analyse the habitat more closely by adjusting the "Zoom" value at the top left of the window before holding down the ctrl key and hovering your cursor over the area of interest. </i>
 
 *Includes a number of broad types (e.g. Ascidians, Bryozoa, Crinoids)
